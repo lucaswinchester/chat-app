@@ -3,32 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat App</title>
+    <title>Chatter</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01d18d3ed6.js" crossorigin="anonymous"></script>
 </head>
 <body class="parent-grid">
     <div class="main">
         <nav class="sidebar">
-            <ul class="pinned-conversations">
-                <li class="pinned-convo">
-                    <a href="/farts.html">Pinned Convo 1</a>
+            <ul class="pinned">
+                <li class="pinned-convo icon">
+                    <a href="/farts.html" class="fa-regular fa-star"></a>
                 </li>
-                <li class="pinned-convo">
-                    <a href="/index.html">Pinned Convo 2</a>
+                <li class="pinned-convo icon">
+                    <a href="/index.html">2</a>
                 </li>
-                <li class="pinned-convo">
-                    <a href="#">Pinned Convo 3</a>
+                <li class="pinned-convo icon">
+                    <a href="#">3</a>
                 </li>
             </ul>
+            <hr/>
             <ul class="conversations">
-                <li class="convo">
-                    <a href="#">Convo 1</a>
+                <li class="convo icon">
+                    <a href="#">A</a>
                 </li>
-                <li class="convo">
-                    <a href="#">Convo 2</a>
+                <li class="convo icon">
+                    <a href="#">B</a>
                 </li>
-                <li class="convo">
-                    <a href="#">Convo 3</a>
+                <li class="convo icon">
+                    <a href="#">C</a>
                 </li>
             </ul>
             <ul class="account-management">
@@ -41,11 +43,10 @@
             </ul>
         </nav>
         <div class="message-box">
-            <div class="messages">
-                Messages
-            </div>
-            <div class="input">
-                Input
+            <div class="messages"></div>
+            <div class="input-section">
+                <input class="input"></input>
+                <button class="send fa-solid fa-paper-plane"></button>
             </div>
         </div>
     </div>
